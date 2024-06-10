@@ -5,18 +5,15 @@
 [![API Reference](https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667)](https://pkg.go.dev/github.com/ethereum/go-verkle)
 [![Block replay](https://github.com/ethereum/go-verkle/actions/workflows/block_replay.yml/badge.svg)](https://github.com/ethereum/go-verkle/actions/workflows/block_replay.yml)
 
-
 # go-verkle
 
-> A Go implementation of Verkle Tree datastructure defined in the [spec](https://github.com/crate-crypto/verkle-trie-ref/tree/master/verkle). 
-
+> A Go implementation of the Verkle Tree data structure as defined in the [spec](https://github.com/crate-crypto/verkle-trie-ref/tree/master/verkle).
 
 ## Test & Benchmarks
 
-To run the tests and benchmarks, run the following commands:
+To run tests:
 ```bash
-$ go test ./...
-```
+go test ./...
 
 To run the benchmarks:
 ```bash
